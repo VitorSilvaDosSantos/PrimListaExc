@@ -5,18 +5,18 @@ e dos impostos (aplicados ao custo de fábrica). Escreva um script para ler o cu
 
 const prompt = require('prompt-sync')();
 
-console.log("Exercício 05")
-console.log("Custo de um carro novo ao consumidor")
+console.log("Exc 05")
+console.log("Custo do 0km")
 
-const custoFabrica = Number(prompt("Informe o custo de fábrica do carro: "));
-const percentualDistribuidor = Number(prompt("Informe o percentual de impostos dsitribuidor: "));
-const percentualImpostos = Number(prompt("Informe o percentual de Impostos sobre o valor do custo: "));
-
-
-const valorDistribuidor = custoFabrica * (percentualDistribuidor / 100);
-const valorImpostos = custoFabrica * (percentualImpostos / 100) ;
+     const custoFabrica = Number(prompt("Informe o custo de fábrica do 0km: "));
+   const percentualDistribuidor = Number(prompt("Informe o percentual de impostos dsitribuidor: "));
+  const percentualImpostos = Number(prompt("Informe o percentual de Impostos sobre o valor do custo: "));
 
 
-const custoFinal = custoFabrica + valorDistribuidor + valorImpostos;
+  const valorDistribuidor = custoFabrica * (percentualDistribuidor / 100);
+ const valorImpostos = custoFabrica * (percentualImpostos / 100) ;
 
-console.log("O custo final será de  R$" + custoFinal.toFixed(2));
+
+  const custoFinal = custoFabrica + valorDistribuidor + valorImpostos;
+
+console.log("O custo final é de  R$" + custoFinal.toFixed(2));

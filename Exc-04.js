@@ -7,17 +7,17 @@ para ler o custo de fábrica de um carro, calcular e escrever o custo final ao c
 const prompt = require('prompt-sync')();
 
 console.log("Exercício 04")
-console.log("Custo de um carro novo ao consumidor")
+console.log("Custo do carro ao cliente")
 
-const  custoFabrica = Number(prompt("Informe o custo de fábrica do carro: "));
-const  percentualDistribuidor = 28 / 100; 
-const  percentualImpostos = 45 / 100; 
-
-
-const valorDistribuidor = custoFabrica * percentualDistribuidor;
-const  valorImpostos = custoFabrica * percentualImpostos;
+            const  custoFabrica = Number(prompt("Informe o custo de fábrica do carro: "));
+        const  percentualDistribuidor = 28 / 100; 
+   const  percentualImpostos = 45 / 100; 
 
 
-const  custoFinal = custoFabrica + valorDistribuidor + valorImpostos;
+         const valorDistribuidor = custoFabrica * percentualDistribuidor;
+            const  valorImpostos = custoFabrica * percentualImpostos;
 
-console.log("O custo final será de R$" + custoFinal.toFixed(2));
+
+    const  custoFinal = custoFabrica + valorDistribuidor + valorImpostos;
+
+console.log("O custo final é R$" + custoFinal.toFixed(2));
