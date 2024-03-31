@@ -4,8 +4,8 @@ que cada um representa em relação ao total de eleitores.
 */
 const prompt = require('prompt-sync')();
 
-console.log("Exc 02")
-console.log("Numero de eleitores no percentual")
+      console.log("Exc 02")
+          console.log("Numero de eleitores no percentual")
 
 const  tEleitores = Number(prompt("Total de eleitores: "));
     const  vBrancos = Number(prompt("Número dos votos brancos: "));

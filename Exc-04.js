@@ -4,10 +4,10 @@ Supondo que o percentual do distribuidor seja de 28% e os impostos de 45%, escre
 para ler o custo de fábrica de um carro, calcular e escrever o custo final ao consumidor.
 */
 
-const prompt = require('prompt-sync')();
+           const prompt = require('prompt-sync')();
 
-console.log("Exercício 04")
-console.log("Custo do carro ao cliente")
+                    console.log("Exercício 04")
+             console.log("Custo do carro ao cliente")
 
             const  custoFabrica = Number(prompt("Informe o custo de fábrica do carro: "));
         const  percentualDistribuidor = 28 / 100; 

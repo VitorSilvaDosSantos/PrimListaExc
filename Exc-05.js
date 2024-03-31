@@ -3,10 +3,10 @@ e dos impostos (aplicados ao custo de fábrica). Escreva um script para ler o cu
  a porcentagem do distribuidor e o imposto, e calcular e escrever o custo final ao consumidor.
 */
 
-const prompt = require('prompt-sync')();
+         const prompt = require('prompt-sync')();
 
-console.log("Exc 05")
-console.log("Custo do 0km")
+         console.log("Exc 05")
+       console.log("Custo do 0km")
 
      const custoFabrica = Number(prompt("Informe o custo de fábrica do 0km: "));
    const percentualDistribuidor = Number(prompt("Informe o percentual de impostos dsitribuidor: "));

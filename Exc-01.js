@@ -4,16 +4,16 @@ a mensagem de reprovado para média inferior a 7.0.
 */
 const prompt = require('prompt-sync')();
 
-console.log("Exc 01")
-console.log("Calculo media")
+           console.log("Exc 01")
+       console.log("Calculo media")
 
-const nota1 = Number(prompt("Nota 1: "));
-const nota2 = Number(prompt("Nota 2: "));
-const nota3 = Number(prompt("Nota 3: "));
-const nota4 = Number(prompt("Nota 4: "));
+          const nota1 = Number(prompt("Nota 1: "));
+      const nota2 = Number(prompt("Nota 2: "));
+    const nota3 = Number(prompt("Nota 3: "));
+  const nota4 = Number(prompt("Nota 4: "));
 
 
-const media = (nota1 + nota2 + nota3 + nota4) / 4;
+         const media = (nota1 + nota2 + nota3 + nota4) / 4;
 
     if (media >= 7) {
         console.log("Aprovado, média:", media);

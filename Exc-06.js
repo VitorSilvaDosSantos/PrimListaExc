@@ -4,10 +4,10 @@ Escrever um script que leia o número de carros por ele vendidos, o valor total 
  fixo e o valor que ele recebe por carro vendido. Calcule e escreva o salário final do vendedor.
 */
 
-const prompt = require('prompt-sync')();
+         const prompt = require('prompt-sync')();
 
-console.log("Exc 06")
-console.log("Calculo do salário final")
+      console.log("Exc 06")
+          console.log("Calculo do salário final")
 
         const qtdCarrosVendidos = Number(prompt("Insira a quantidade de carros vendidos no mês: "));
       const valorTotalVendas = Number(prompt("Insira o valor total de suas vendas no mês: "));
